@@ -1,0 +1,35 @@
+{
+  "name": "@ongojs/db-schema",
+  "version": "0.0.0",
+  "description": "db-schema",
+  "main": "index.js",
+  "bin": {
+    "db-schema": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/db-schema.git"
+  },
+  "keywords": [
+    "db-schema"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/db-schema/issues"
+  },
+  "homepage": "https://github.com/ongojs/db-schema#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "vitest": "^0.28.4"
+  }
+}
